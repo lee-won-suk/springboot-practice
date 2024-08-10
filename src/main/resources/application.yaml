@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: jwt-tutorial
+
+jwt:
+  header: Authorization
+  secret:
+    token-validity-in-seconds:86400
